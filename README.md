@@ -1,1 +1,1 @@
-This is the code behind my personal website: kevinmatula.com!
+This is the code for my personal website: kevinmatula.com!
