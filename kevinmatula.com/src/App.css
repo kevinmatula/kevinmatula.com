@@ -1,6 +1,6 @@
 @font-face {
   font-family: "LinearBeam";  /* Define the font name */
-  src: url("./assets/Linebeam.ttf") format("truetype");  /* Correct path to the font */
+  src: url("./assets/fonts/Linebeam.ttf") format("truetype");  /* Correct path to the font */
   font-weight: normal;
   font-style: normal;
 }
