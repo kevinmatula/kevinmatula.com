@@ -1,12 +1,7 @@
-@font-face {
-  font-family: "LinearBeam";  /* Define the font name */
-  src: url("./assets/fonts/Linebeam.ttf") format("truetype");  /* Correct path to the font */
-  font-weight: normal;
-  font-style: normal;
-}
-
 .nav{
-  font-family: "LinearBeam";
+  font-family: "anatol-mn";
+  font-weight: 400;
+  font-style: normal;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -19,10 +14,11 @@
 }
 
 .nav a {
-  font: "LinearBeam";
-  color: white; 
+  color: rgb(176, 176, 176); 
   text-decoration: none; 
+  animation: blink 2s infinite;
 }
+
 
 @media screen and (min-width:700px) {
   .nav a {
@@ -36,5 +32,9 @@
   }
 }
 
-
+@keyframes blink {
+  50% {
+    color: rgb(255, 255, 255);
+  }
+}
 
