@@ -1,7 +1,15 @@
 export default function Home() {
     return (
         <div>
-            <img src="../static-folder.png" className="w-[1vw]"></img>
+            <div>
+                <a href="/" className="buttons-home">About</a>
+            </div>
+            <div className="">
+                <a href="/" className="buttons-home">Projects</a>
+            </div>
+            <div>
+                <a href="/" className="buttons-home">Journal</a>
+            </div>
         </div>
     );
 }
