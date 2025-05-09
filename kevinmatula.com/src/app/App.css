@@ -1,0 +1,58 @@
+.nav{
+  font-family: "anatol-mn";
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.buttons-home {
+  font-family: "automate";
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  gap: 2rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.nav a {
+  color: rgb(176, 176, 176); 
+  text-decoration: none; 
+  animation: blink 2s infinite;
+}
+
+
+@media screen and (min-width:700px) {
+  .nav a {
+    font-size: 4vw;
+  }
+
+  .buttons-home {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .nav a {
+    font-size: 175%;
+  }
+
+  .buttons-home {
+    font-size: 80%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    color: rgb(255, 255, 255);
+  }
+}
+
