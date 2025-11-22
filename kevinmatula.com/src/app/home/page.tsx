@@ -1,15 +1,15 @@
 export default function Home() {
-    return (
-        <div className="mb-[25vh]">
-            <div>
-                <a href="/" className="buttons-home">About</a>
-            </div>
-            <div className="">
-                <a href="/" className="buttons-home">Projects</a>
-            </div>
-            <div>
-                <a href="/" className="buttons-home">Journal</a>
-            </div>
-        </div>
-    );
+  return (
+    <div className="buttons-home">
+      <div>
+        <a href="/">About</a>
+      </div>
+      <div>
+        <a href="/">Projects</a>
+      </div>
+      <div>
+        <a href="/">Notebook</a>
+      </div>
+    </div>
+  );
 }
