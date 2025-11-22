@@ -1,8 +1,11 @@
-export default function NavBar() {
+import { Link } from "react-router-dom";
 
-    return (
-      <nav className="nav">
-        <a href="/" className="site-title">kevinmatula.com</a>
-      </nav>
-    );
-  }
+export default function NavBar() {
+  return (
+    <nav className="nav">
+      <Link to="/" className="site-title">
+        kevinmatula.com
+      </Link>
+    </nav>
+  );
+}
